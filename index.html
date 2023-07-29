@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <title>Arsonist´s Enterprise</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <style>
+        /* Change background color of the page */
+        body {
+            background-color: #0A4D68; /* Replace with your desired color */
+        }
+        nav {
+        background-color: #0A4D68; /* Replace with your desired color for the navigation bar */
+    }
+
+    .nav-link {
+        color: #FFF; /* Replace with your desired color for the navigation links */
+    }
+
+    .nav-link.active {
+        background-color: #3bf8e8ab; /* Replace with your desired color for the active link */
+    }
+
+    .dropdown-menu {
+        background-color: #35ad99c7; /* Replace with your desired color for the dropdown menu */
+    }
+
+    .dropdown-item {
+        color: #000000; /* Replace with your desired color for the dropdown menu links */
+    }
+h1 {
+    color: #FFF;
+    font-style: italic;
+}
+     /* Additional styles for the circle and subtitle */
+    .circle-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px; /* Adjust the margin as needed */
+        }
+
+        .circle {
+            width: 430px; /* Adjust the size of the circle */
+            height: 430px; /* Adjust the size of the circle */
+            background-color: #05BFDB;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .circle img {
+            max-width: 118%;
+            max-height: 118%;
+            object-fit: fill;
+        }
+
+        .subtitle {
+            color: #FFF;
+            font-size: 25px;
+            margin-left: 30px; /* Adjust the margin as needed */
+            margin-top: 260px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*segunda parte de la pagina*/
+             /* Additional styles for the rectangles */
+            
+            .rectangle-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px; /* Adjust the margin as needed */
+        }
+
+        .rectangle {
+            width: 600px; /* Adjust the size of the rectangles */
+            height: 300px; /* Adjust the size of the rectangles */
+            background-color: #FACF57; /* Replace with your desired color */
+            margin: 20px; /* Adjust the spacing between rectangles */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .rectangle img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        .rectangle-text {
+            color: #000;
+            font-size: 18px;
+            margin-top: 10px; /* Adjust the margin as needed */
+            text-align: center;
+        }
+/*parte 3*/
+.additional-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        background-color: #00e8f07e;
+        color: #000000;
+}
+h2 {
+color: #252525;
+font-size: medium;
+}
+h3 {
+    color: #000000;
+    font-size:x-large;
+}
+</style>
+</head>
+<body>
+    <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+        <!-- Example Code -->
+        <nav>
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Prices</a>
+        </li>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://twitter.com/ArsonIst_lol?t=yceo-7P4IdcXrlZjlGADVg&s=08">Twitter</a></li>
+                <li><a class="dropdown-item" href="https://instagram.com/arsonist_lol?igshid=ZDdkNTZiNTM=">Instagram</a></li>
+            </ul>
+        </li>
+    </nav>
+    <h1>Arsonist´s Enterprise</h1>
+    <!-- Circle with image and subtitle -->
+    <div class="circle-container">
+        <div class="circle">
+            <img src="https://i.imgur.com/i3OPGmd.png" alt="Image">
+        </div>
+        <div class="subtitle">
+            Digital <br> Drawings
+        </div>
+    </div>
+    <!-- segunda parte-->
+    <div class="rectangle-container" id="prices-section">
+        <div class="rectangle">
+            <img src="https://i.imgur.com/TLtjN4Z.jpg" alt="Image 1">
+            <div class="rectangle-text">Sketches: <p>$15: Bust<br>$25: Waist up<br>$35: Fullbody</p> </div>
+            <a href="additional_content.html" class="btn btn-primary">Ver más</a> <!-- Botón para ver más contenido -->
+        </div>
+        <div class="rectangle">
+            <img src="https://i.imgur.com/JcdbIob.jpg" alt="Image 2">
+            <div class="rectangle-text">Simple Cell Shading: <p>$30: Bust<br>$50: Waist up<br>$60: Fullbody</p> </div>
+            <a href="additional_content.html" class="btn btn-primary">Ver más</a> <!-- Botón para ver más contenido -->
+        </div>
+        <div class="rectangle">
+            <img src="https://i.imgur.com/s4b2fCG.jpg" alt="Image 3">
+            <div class="rectangle-text">Full Color: <p>$40: Bust<br>$60: Waist up<br>$80: Fullbody</p> </div>
+            <a href="additional_content.html" class="btn btn-primary">Ver más</a> <!-- Botón para ver más contenido -->
+        </div>
+    </div>
+    <!--parte adicional-->
+    <script>
+        // Función para mostrar el contenido de Prices y ocultar el contenido anterior
+        function showPrices() {
+            document.getElementById('prices-section').style.display = 'flex';
+            document.getElementById('circle-container').style.display = 'none';
+        }
+    
+        // Función para mostrar el contenido anterior y ocultar Prices
+        function showHome() {
+            document.getElementById('prices-section').style.display = 'none';
+            document.getElementById('circle-container').style.display = 'flex';
+        }
+    
+        // Event listener para el botón Home en la barra de navegación
+        document.querySelector('.nav-link.active').addEventListener('click', showHome);
+    
+        // Event listener para el botón Prices en la barra de navegación
+        document.querySelectorAll('.nav-link')[1].addEventListener('click', showPrices);
+    </script>
+    <!--3 parte-->
+    <div class="additional-content">
+        <h2>About Me</h2>
+        <div class="square">
+            <h3>Digital Cartoonist</h3>
+            <p>My name is Arson, I am a traditional and mostly digital artist.<br>
+                I'm starting my business to be able to live from what I like and have to eat ඞ<br>
+                I draw everything, and each order also helps me improve and gives me more experience.<br>
+                When placing orders, I ask you to keep in mind that the more details, preferences and references you give me, the easier it will be for me to carry out each order.<br>
+                Any specific question or doubt can be consulted on my social networks!<br></p>
+        </div>
+</body>
+</html>
